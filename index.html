@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Restaurant Survey Form</title>
 </head>
-<body id="body">
+<body>
 
-    <h1>Restaurant Survey Form</h1>
+    <h1 id="title">Restaurant Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
 
 
@@ -19,7 +19,7 @@
             <input type="text" id="name" required placeholder="Enter your name"> <br><br>
        
             <label id="email-label" for="email"> Email </label><br>
-            <input type="text"  id="email" placeholder="Enter your Email"><br><br>
+            <input type="email"  id="email" required placeholder="Enter your Email"><br><br>
        
             <label id="number-label" for="number" > Age </label><br>
             <input type="number" id="number" min = "5" max = "100"  placeholder="Enter your age" ><br><br>
@@ -61,9 +61,7 @@
 
             <label id="comment-label" for="textarea">Any Feedback comment?</label><br>
             <textarea id="comment" cols="45" rows="10">Enter your feedback</textarea><br><br>
-
-
-
+            <button type="submit" id="submit"><strong>Submit</strong></button><br><br>
 
     </form>
 
